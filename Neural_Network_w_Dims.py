@@ -1,3 +1,7 @@
+#Simple neural net backpropigates to find 1s or 0s stored as y.  
+#Note the comments above layers. These are matrix dimensions. A 300,1 matrix times a 7,12 matrix = a 7,1 matrix.
+
+
 import numpy as np 
 
 def sigmoid(x): return 1/(1+np.exp(-x))
